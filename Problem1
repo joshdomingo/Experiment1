@@ -1,0 +1,100 @@
+#include <iostream>
+#include <conio.h>
+#include <ostream>
+
+using namespace std;
+
+int main()
+{
+    int ticket;
+
+    cout <<"           Ticket Price     Number of Tickets Sold"<<endl;
+
+	cout <<"Game 1       ";
+    cout << "$250                    ";
+    cin>>ticket;
+	cout<<"														Total: " << 250.00*ticket<<endl<< endl<< endl;
+	 
+
+    cout << "	     $100                    ";
+    cin>>ticket;
+	cout<<"														Total: " << 100.00*ticket<<endl<< endl<< endl;
+	 
+
+	 cout << "	     $50                    ";
+    cin>>ticket;
+	cout<<"														Total: " << 50.00*ticket<<endl<< endl<< endl;
+
+	cout << "	     $25                    ";
+    cin>>ticket;
+	cout<<"														Total: " << 25.00*ticket<<endl<< endl<< endl;
+	
+	cout<<"														Total: " <<(250.00*ticket) + (100.00*ticket) + (50.00*ticket) + (25.00*ticket) <<endl<< endl<< endl;
+   	
+	cout <<"Game 2       ";
+    cout << "$250                    ";
+    cin>>ticket;
+	cout<<"														Total: " << 250.00*ticket<<endl<< endl<< endl;
+	 
+
+    cout << "	     $100                    ";
+    cin>>ticket;
+	cout<<"														Total: " << 100.00*ticket<<endl<< endl<< endl;
+	 
+
+	 cout << "	     $50                    ";
+    cin>>ticket;
+	cout<<"														Total: " << 50.00*ticket<<endl<< endl<< endl;
+
+	cout << "	     $25                    ";
+    cin>>ticket;
+	cout<<"														Total: " << 25.00*ticket<<endl<< endl<< endl;
+	
+	cout<<"														Total: " <<(250.00*ticket) + (100.00*ticket) + (50.00*ticket) + (25.00*ticket) <<endl<< endl<< endl;
+	
+	cout <<"Game 3       ";
+    cout << "$250                    ";
+    cin>>ticket;
+	cout<<"														Total: " << 250.00*ticket<<endl<< endl<< endl;
+	 
+
+    cout << "	     $100                    ";
+    cin>>ticket;
+	cout<<"														Total: " << 100.00*ticket<<endl<< endl<< endl;
+	 
+
+	 cout << "	     $50                    ";
+    cin>>ticket;
+	cout<<"														Total: " << 50.00*ticket<<endl<< endl<< endl;
+
+	cout << "	     $25                    ";
+    cin>>ticket;
+	cout<<"														Total: " << 25.00*ticket<<endl<< endl<< endl;
+	
+	cout<<"														Total: " <<(250.00*ticket) + (100.00*ticket) + (50.00*ticket) + (25.00*ticket) <<endl<< endl<< endl;
+	
+	cout <<"Game 4       ";
+    cout << "$250                    ";
+    cin>>ticket;
+	cout<<"														Total: " << 250.00*ticket<<endl<< endl<< endl;
+	 
+
+    cout << "	     $100                    ";
+    cin>>ticket;
+	cout<<"														Total: " << 100.00*ticket<<endl<< endl<< endl;
+	 
+
+	 cout << "	     $50                    ";
+    cin>>ticket;
+	cout<<"														Total: " << 50.00*ticket<<endl<< endl<< endl;
+
+	cout << "	     $25                    ";
+    cin>>ticket;
+	cout<<"														Total: " << 25.00*ticket<<endl<< endl<< endl;
+	
+	cout<<"														Total: " <<(250.00*ticket) + (100.00*ticket) + (50.00*ticket) + (25.00*ticket) <<endl<< endl<< endl;
+
+	_getch();
+    
+	return 0;
+}
